@@ -1,2 +1,5 @@
-# Circle-The-Cat
-Circle The Cat Game
+# Circle-The-Cat-Gmae
+
+Circle the Cat is a puzzle game where you draw circles around a cat
+in an attempt to trap it.
+Click the dots and stop the cat from escaping!
