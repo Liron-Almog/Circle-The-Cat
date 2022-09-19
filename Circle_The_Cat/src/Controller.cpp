@@ -31,7 +31,7 @@ void Controller::handleEvents(sf::RenderWindow & window) {
                 window.close();
 
             if (sf::Event::MouseButtonPressed == event.type) {
-                if (m_map.fillTile(event, window)) {//if succeed  to filled tile 
+                if (m_map.fillTile(event, window)) {//if tile was filled successfully  
                     m_map.addEdgeToGraph();
                     m_map.moveCat();
                     m_map.drawMap(window);
